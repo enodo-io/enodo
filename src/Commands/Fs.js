@@ -41,7 +41,7 @@ class Fs extends ACommand {
     console.error(
       'usage: npx enodo fs <command> [options]\n' +
         '\n' +
-        'npx enodo fs -h, --help\tall available commands and options\n' +
+        'npx enodo fs -h, --help\t\tall available commands and options\n' +
         'npx enodo fs <command> -h\thelp on a specific command',
     );
     process.exit(1);
