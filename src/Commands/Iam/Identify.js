@@ -14,7 +14,7 @@ class Identify extends ACommand {
 
     if (!opt.username) {
       questions.push({
-        type: "password",
+        type: "input",
         name: "username",
         message: "Enter username or email",
       });
