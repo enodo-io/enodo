@@ -64,9 +64,12 @@ class Upload extends ACommand {
     console.log(
       'Usage: npx enodo fs upload [options] file ...\n' +
         '\n' +
+        'Arguments:\n' +
+        '  file\t\t\tList of file paths to upload\n' +
+        '\n' +
         'Options:\n' +
-        '  -t, --token\t\tUse token instead of the one stored in ~/.enodo',
-        '  --createdFrom\t\tSpecify tool used to create this file',
+        '  -t, --token\t\tUse token instead of the one stored in ~/.enodo\n',
+        '  --createdFrom\tSpecify tool used to create this file',
     );
     process.exit(0);
   }
