@@ -19,7 +19,7 @@ async function getOrRefreshTokens(credentials = {}, refreshToken = null, write =
   }
 
   const res = await axios.post(
-    `${config.url}/jwt/`,
+    `${config.url}/me/relationships/jwt`,
     credentials,
     { headers },
   );
