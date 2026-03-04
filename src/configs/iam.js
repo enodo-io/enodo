@@ -1,5 +1,5 @@
 export default {
-  url: 'https://iam.eno.do',
+  url: 'https://iam.eno.do/v1',
   publicKey:
     '-----BEGIN PUBLIC KEY-----\n' +
     'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuNxJ/jPH8ZBQ62ynaSwV\n' +
